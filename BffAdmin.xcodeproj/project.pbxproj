@@ -1,0 +1,1167 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03235EFB22A90432008688BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03235EFA22A90432008688BD /* AppDelegate.swift */; };
+		03235EFD22A90432008688BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03235EFC22A90432008688BD /* ViewController.swift */; };
+		03235F0522A90434008688BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03235F0322A90434008688BD /* LaunchScreen.storyboard */; };
+		2E02FCAD22FC562600815924 /* BookedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E02FCAC22FC562500815924 /* BookedCell.xib */; };
+		2E02FCB122FC5A8300815924 /* BookedTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E02FCB022FC5A8300815924 /* BookedTVCell.swift */; };
+		2E02FCB722FC609C00815924 /* BookedTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E02FCB622FC609C00815924 /* BookedTVC.swift */; };
+		2E02FCB922FC76BD00815924 /* BookedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E02FCB822FC76BD00815924 /* BookedViewModel.swift */; };
+		2E02FCBB22FC76E200815924 /* BookedRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E02FCBA22FC76E200815924 /* BookedRepository.swift */; };
+		2E02FCBD22FC7EFE00815924 /* BookedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E02FCBC22FC7EFE00815924 /* BookedModel.swift */; };
+		2E2A1C9322D4766F006C5864 /* StadAddressEditOnMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2A1C9222D4766F006C5864 /* StadAddressEditOnMapVC.swift */; };
+		2E46875322B7C50A00F88E18 /* LoginLogoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E46875122B7C50A00F88E18 /* LoginLogoutManager.swift */; };
+		2E46875422B7C50A00F88E18 /* FIRRefManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E46875222B7C50A00F88E18 /* FIRRefManager.swift */; };
+		2E46875822B7FC1900F88E18 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E46875622B7FC1900F88E18 /* Constant.swift */; };
+		2E46875922B7FC1900F88E18 /* Extantion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E46875722B7FC1900F88E18 /* Extantion.swift */; };
+		2E49D8FD22BA9A2200FB8D5E /* ProfileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E49D8FC22BA9A2200FB8D5E /* ProfileInfo.swift */; };
+		2E49D8FF22BA9D2400FB8D5E /* ProfileEditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E49D8FE22BA9D2400FB8D5E /* ProfileEditVC.swift */; };
+		2E4A9C1622A9095900345B8B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E4A9C1522A9095800345B8B /* GoogleService-Info.plist */; };
+		2E4A9C1822A97E7700345B8B /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4A9C1722A97E7700345B8B /* AuthViewController.swift */; };
+		2E5401DE22C25694009B3FF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E5401DD22C25693009B3FF4 /* Assets.xcassets */; };
+		2E5FF37F22C39D1800F37453 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E5FF37E22C39D1800F37453 /* Main.storyboard */; };
+		2E664290231E2CAB00601B7D /* ProfileTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E66428F231E2CAB00601B7D /* ProfileTVC.swift */; };
+		2E664293231E2CCC00601B7D /* ProfileTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E664292231E2CCC00601B7D /* ProfileTVCell.swift */; };
+		2E664295231E2DB200601B7D /* MyStadiumsTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E664294231E2DB200601B7D /* MyStadiumsTVCell.swift */; };
+		2E664298231E2EB100601B7D /* NewProfileRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E664297231E2EB100601B7D /* NewProfileRepository.swift */; };
+		2E66429B231E2EC700601B7D /* NewProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E66429A231E2EC700601B7D /* NewProfileViewModel.swift */; };
+		2E6D5EB52302AC08008A8B9F /* CalendarTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6D5EB42302AC08008A8B9F /* CalendarTVC.swift */; };
+		2E6D5EB92302AE25008A8B9F /* RZDozAkNBlEAAvi1m5_fP-lxgKx_Mq0UarKNYgn4-OesEZYsEaLYP5Pqm4hNuDgYCZmE=h900.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E6D5EB82302AE24008A8B9F /* RZDozAkNBlEAAvi1m5_fP-lxgKx_Mq0UarKNYgn4-OesEZYsEaLYP5Pqm4hNuDgYCZmE=h900.png */; };
+		2E6D5EBC2302B217008A8B9F /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6D5EBB2302B217008A8B9F /* CalendarCell.swift */; };
+		2E7C262822CF2C5C00E26482 /* StadiumEditCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7C262722CF2C5C00E26482 /* StadiumEditCVCell.swift */; };
+		2E7C262E22CF4D3B00E26482 /* AddImagesCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7C262D22CF4D3B00E26482 /* AddImagesCVCell.swift */; };
+		2E7C263022CF51F900E26482 /* AddImagesCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E7C262F22CF51F800E26482 /* AddImagesCVCell.xib */; };
+		2E8516D422DC464B00373358 /* AddStadiumTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8516D322DC464B00373358 /* AddStadiumTVC.swift */; };
+		2E8516D622DC4AB300373358 /* AddStadiumCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8516D522DC4AB300373358 /* AddStadiumCVCell.swift */; };
+		2E8BC5DA22B23D20008AEC99 /* TabBarCont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8BC5D922B23D20008AEC99 /* TabBarCont.swift */; };
+		2E8BC5F322B24419008AEC99 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8BC5DD22B24419008AEC99 /* IQTextView.swift */; };
+		2E8BC5F422B24419008AEC99 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8BC5DF22B24419008AEC99 /* IQPreviousNextView.swift */; };
+		2E8BC5F522B24419008AEC99 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8BC5E022B24419008AEC99 /* IQTitleBarButtonItem.swift */; };
+		2E8BC5F622B24419008AEC99 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8BC5E122B24419008AEC99 /* IQBarButtonItem.swift */; };
+		2E8BC5F722B24419008AEC99 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8BC5E222B24419008AEC99 /* IQToolbar.swift */; };
+		2E8BC5F822B24419008AEC99 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8BC5E322B24419008AEC99 /* IQUIView+IQKeyboardToolbar.swift */; };
+		2E8BC5F922B24419008AEC99 /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8BC5E422B24419008AEC99 /* IQInvocation.swift */; };
+		2E8BC5FA22B24419008AEC99 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8BC5E622B24419008AEC99 /* IQKeyboardManagerConstantsInternal.swift */; };
+		2E8BC5FB22B24419008AEC99 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8BC5E722B24419008AEC99 /* IQKeyboardManagerConstants.swift */; };
+		2E8BC5FC22B24419008AEC99 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2E8BC5E922B24419008AEC99 /* IQKeyboardManager.bundle */; };
+		2E8BC5FD22B24419008AEC99 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8BC5EA22B24419008AEC99 /* IQKeyboardReturnKeyHandler.swift */; };
+		2E8BC5FE22B24419008AEC99 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8BC5EB22B24419008AEC99 /* IQKeyboardManager.swift */; };
+		2E8BC5FF22B24419008AEC99 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8BC5EE22B24419008AEC99 /* IQUIScrollView+Additions.swift */; };
+		2E8BC60022B24419008AEC99 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8BC5EF22B24419008AEC99 /* IQUIViewController+Additions.swift */; };
+		2E8BC60122B24419008AEC99 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8BC5F022B24419008AEC99 /* IQUITextFieldView+Additions.swift */; };
+		2E8BC60222B24419008AEC99 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8BC5F122B24419008AEC99 /* IQUIView+Hierarchy.swift */; };
+		2E8BC60322B24419008AEC99 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8BC5F222B24419008AEC99 /* IQNSArray+Sort.swift */; };
+		2E8BC60622B25933008AEC99 /* FillingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8BC60522B25933008AEC99 /* FillingVC.swift */; };
+		2E9EE0B122CC583400136D2D /* StadiumsCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EE0B022CC583400136D2D /* StadiumsCVC.swift */; };
+		2E9EE0B322CC5A4500136D2D /* StadiumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EE0B222CC5A4500136D2D /* StadiumModel.swift */; };
+		2E9EE0B722CC61C200136D2D /* StadiumCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E9EE0B622CC61C200136D2D /* StadiumCVCell.xib */; };
+		2E9EE0B922CC66B100136D2D /* StadiumCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EE0B822CC66B100136D2D /* StadiumCVCell.swift */; };
+		2E9EE0BB22CC694600136D2D /* MyStadiumInfoTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EE0BA22CC694600136D2D /* MyStadiumInfoTVC.swift */; };
+		2E9EE0BD22CC79D300136D2D /* StadAddressOnMappVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EE0BC22CC79D300136D2D /* StadAddressOnMappVC.swift */; };
+		2E9EE0BF22CC7B5300136D2D /* ImageSliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EE0BE22CC7B5300136D2D /* ImageSliderCell.swift */; };
+		2EB629E222DDCBCC00446FC4 /* StadiumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB629E122DDCBCC00446FC4 /* StadiumViewModel.swift */; };
+		2EB629E522DDCBF300446FC4 /* StadiumRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB629E422DDCBF300446FC4 /* StadiumRepository.swift */; };
+		2EB629E722DDCC5100446FC4 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB629E622DDCC5100446FC4 /* ApiService.swift */; };
+		2EB629E922DDD42700446FC4 /* StadiumCVC + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB629E822DDD42700446FC4 /* StadiumCVC + Extensions.swift */; };
+		2EB629EB22DDD8F200446FC4 /* AddStadiumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB629EA22DDD8F200446FC4 /* AddStadiumViewModel.swift */; };
+		2EB629EE22DDDB5500446FC4 /* AddStadiumTVC + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB629ED22DDDB5500446FC4 /* AddStadiumTVC + Extensions.swift */; };
+		2EC973A722B0CF3600F2BE74 /* AuthMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC973A622B0CF3600F2BE74 /* AuthMethodViewController.swift */; };
+		2EC973A922B0D3A300F2BE74 /* PhoneVerifyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC973A822B0D3A300F2BE74 /* PhoneVerifyVC.swift */; };
+		2EC973AB22B103BC00F2BE74 /* EnterCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC973AA22B103BC00F2BE74 /* EnterCodeVC.swift */; };
+		2ED957CA22DEEF730089E0EC /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED957C922DEEF730089E0EC /* ProfileViewModel.swift */; };
+		2ED957CC22DEEFB50089E0EC /* ProfileRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED957CB22DEEFB50089E0EC /* ProfileRepository.swift */; };
+		2ED957CF22DF20860089E0EC /* ProfileEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED957CE22DF20860089E0EC /* ProfileEditViewModel.swift */; };
+		2ED957D122DF2A790089E0EC /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED957D022DF2A790089E0EC /* Reachability.swift */; };
+		2ED957DA22E069590089E0EC /* StadiumInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED957D922E069590089E0EC /* StadiumInfoViewModel.swift */; };
+		2ED957DC22E0699E0089E0EC /* StadiumInfoRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED957DB22E0699E0089E0EC /* StadiumInfoRepository.swift */; };
+		2ED957DE22E06A470089E0EC /* StadiumInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED957DD22E06A470089E0EC /* StadiumInfo.swift */; };
+		2ED957E122E074CE0089E0EC /* StadiumEditTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED957E022E074CE0089E0EC /* StadiumEditTVC.swift */; };
+		2ED957E722E08F4C0089E0EC /* StadiumEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED957E622E08F4C0089E0EC /* StadiumEditViewModel.swift */; };
+		2ED957E922E0B06C0089E0EC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ED957E822E0B06B0089E0EC /* LoginViewModel.swift */; };
+		4AFF1217A2CBD2644CBE4909 /* Pods_BffAdmin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED404162C5D5ABF221EFABE5 /* Pods_BffAdmin.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03235EF722A90432008688BD /* BffAdmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BffAdmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03235EFA22A90432008688BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03235EFC22A90432008688BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../ViewController.swift; sourceTree = "<group>"; };
+		03235F0422A90434008688BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03235F0622A90434008688BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E02FCAC22FC562500815924 /* BookedCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookedCell.xib; sourceTree = "<group>"; };
+		2E02FCB022FC5A8300815924 /* BookedTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookedTVCell.swift; sourceTree = "<group>"; };
+		2E02FCB622FC609C00815924 /* BookedTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookedTVC.swift; sourceTree = "<group>"; };
+		2E02FCB822FC76BD00815924 /* BookedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookedViewModel.swift; sourceTree = "<group>"; };
+		2E02FCBA22FC76E200815924 /* BookedRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookedRepository.swift; sourceTree = "<group>"; };
+		2E02FCBC22FC7EFE00815924 /* BookedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookedModel.swift; sourceTree = "<group>"; };
+		2E2A1C9222D4766F006C5864 /* StadAddressEditOnMapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadAddressEditOnMapVC.swift; sourceTree = "<group>"; };
+		2E46875122B7C50A00F88E18 /* LoginLogoutManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginLogoutManager.swift; sourceTree = "<group>"; };
+		2E46875222B7C50A00F88E18 /* FIRRefManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIRRefManager.swift; sourceTree = "<group>"; };
+		2E46875622B7FC1900F88E18 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		2E46875722B7FC1900F88E18 /* Extantion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extantion.swift; sourceTree = "<group>"; };
+		2E49D8FC22BA9A2200FB8D5E /* ProfileInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfo.swift; sourceTree = "<group>"; };
+		2E49D8FE22BA9D2400FB8D5E /* ProfileEditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileEditVC.swift; path = ../../../../ProfileEditVC.swift; sourceTree = "<group>"; };
+		2E4A9C1522A9095800345B8B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2E4A9C1722A97E7700345B8B /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		2E5401DD22C25693009B3FF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E5FF37E22C39D1800F37453 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2E66428F231E2CAB00601B7D /* ProfileTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTVC.swift; sourceTree = "<group>"; };
+		2E664292231E2CCC00601B7D /* ProfileTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTVCell.swift; sourceTree = "<group>"; };
+		2E664294231E2DB200601B7D /* MyStadiumsTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStadiumsTVCell.swift; sourceTree = "<group>"; };
+		2E664297231E2EB100601B7D /* NewProfileRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProfileRepository.swift; sourceTree = "<group>"; };
+		2E66429A231E2EC700601B7D /* NewProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProfileViewModel.swift; sourceTree = "<group>"; };
+		2E6D5EB42302AC08008A8B9F /* CalendarTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTVC.swift; sourceTree = "<group>"; };
+		2E6D5EB82302AE24008A8B9F /* RZDozAkNBlEAAvi1m5_fP-lxgKx_Mq0UarKNYgn4-OesEZYsEaLYP5Pqm4hNuDgYCZmE=h900.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RZDozAkNBlEAAvi1m5_fP-lxgKx_Mq0UarKNYgn4-OesEZYsEaLYP5Pqm4hNuDgYCZmE=h900.png"; sourceTree = "<group>"; };
+		2E6D5EBB2302B217008A8B9F /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		2E7C262722CF2C5C00E26482 /* StadiumEditCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StadiumEditCVCell.swift; path = ../StadiumEditCVCell.swift; sourceTree = "<group>"; };
+		2E7C262D22CF4D3B00E26482 /* AddImagesCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddImagesCVCell.swift; path = ../AddImagesCVCell.swift; sourceTree = "<group>"; };
+		2E7C262F22CF51F800E26482 /* AddImagesCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AddImagesCVCell.xib; path = ../AddImagesCVCell.xib; sourceTree = "<group>"; };
+		2E8516D322DC464B00373358 /* AddStadiumTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddStadiumTVC.swift; path = ../../../../AddStadiumTVC.swift; sourceTree = "<group>"; };
+		2E8516D522DC4AB300373358 /* AddStadiumCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStadiumCVCell.swift; sourceTree = "<group>"; };
+		2E8BC5D922B23D20008AEC99 /* TabBarCont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabBarCont.swift; path = ../TabBarCont.swift; sourceTree = "<group>"; };
+		2E8BC5DD22B24419008AEC99 /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		2E8BC5DF22B24419008AEC99 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		2E8BC5E022B24419008AEC99 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		2E8BC5E122B24419008AEC99 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		2E8BC5E222B24419008AEC99 /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		2E8BC5E322B24419008AEC99 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		2E8BC5E422B24419008AEC99 /* IQInvocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQInvocation.swift; sourceTree = "<group>"; };
+		2E8BC5E622B24419008AEC99 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		2E8BC5E722B24419008AEC99 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		2E8BC5E922B24419008AEC99 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		2E8BC5EA22B24419008AEC99 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		2E8BC5EB22B24419008AEC99 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		2E8BC5EC22B24419008AEC99 /* IQKeyboardManagerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerSwift.h; sourceTree = "<group>"; };
+		2E8BC5EE22B24419008AEC99 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		2E8BC5EF22B24419008AEC99 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		2E8BC5F022B24419008AEC99 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		2E8BC5F122B24419008AEC99 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		2E8BC5F222B24419008AEC99 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		2E8BC60522B25933008AEC99 /* FillingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillingVC.swift; sourceTree = "<group>"; };
+		2E9EE0B022CC583400136D2D /* StadiumsCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadiumsCVC.swift; sourceTree = "<group>"; };
+		2E9EE0B222CC5A4500136D2D /* StadiumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadiumModel.swift; sourceTree = "<group>"; };
+		2E9EE0B622CC61C200136D2D /* StadiumCVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = StadiumCVCell.xib; path = ../StadiumCVCell.xib; sourceTree = "<group>"; };
+		2E9EE0B822CC66B100136D2D /* StadiumCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StadiumCVCell.swift; path = ../StadiumCVCell.swift; sourceTree = "<group>"; };
+		2E9EE0BA22CC694600136D2D /* MyStadiumInfoTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStadiumInfoTVC.swift; sourceTree = "<group>"; };
+		2E9EE0BC22CC79D300136D2D /* StadAddressOnMappVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadAddressOnMappVC.swift; sourceTree = "<group>"; };
+		2E9EE0BE22CC7B5300136D2D /* ImageSliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageSliderCell.swift; path = ../ImageSliderCell.swift; sourceTree = "<group>"; };
+		2EB629E122DDCBCC00446FC4 /* StadiumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadiumViewModel.swift; sourceTree = "<group>"; };
+		2EB629E422DDCBF300446FC4 /* StadiumRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadiumRepository.swift; sourceTree = "<group>"; };
+		2EB629E622DDCC5100446FC4 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		2EB629E822DDD42700446FC4 /* StadiumCVC + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StadiumCVC + Extensions.swift"; sourceTree = "<group>"; };
+		2EB629EA22DDD8F200446FC4 /* AddStadiumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStadiumViewModel.swift; sourceTree = "<group>"; };
+		2EB629ED22DDDB5500446FC4 /* AddStadiumTVC + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AddStadiumTVC + Extensions.swift"; sourceTree = "<group>"; };
+		2EC973A622B0CF3600F2BE74 /* AuthMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthMethodViewController.swift; sourceTree = "<group>"; };
+		2EC973A822B0D3A300F2BE74 /* PhoneVerifyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneVerifyVC.swift; sourceTree = "<group>"; };
+		2EC973AA22B103BC00F2BE74 /* EnterCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterCodeVC.swift; sourceTree = "<group>"; };
+		2ED957C922DEEF730089E0EC /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		2ED957CB22DEEFB50089E0EC /* ProfileRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRepository.swift; sourceTree = "<group>"; };
+		2ED957CE22DF20860089E0EC /* ProfileEditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditViewModel.swift; sourceTree = "<group>"; };
+		2ED957D022DF2A790089E0EC /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		2ED957D922E069590089E0EC /* StadiumInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadiumInfoViewModel.swift; sourceTree = "<group>"; };
+		2ED957DB22E0699E0089E0EC /* StadiumInfoRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadiumInfoRepository.swift; sourceTree = "<group>"; };
+		2ED957DD22E06A470089E0EC /* StadiumInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadiumInfo.swift; sourceTree = "<group>"; };
+		2ED957E022E074CE0089E0EC /* StadiumEditTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StadiumEditTVC.swift; sourceTree = "<group>"; };
+		2ED957E622E08F4C0089E0EC /* StadiumEditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StadiumEditViewModel.swift; sourceTree = "<group>"; };
+		2ED957E822E0B06B0089E0EC /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		C2D328165EF5E1C9CA8E793F /* Pods-BffAdmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BffAdmin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BffAdmin/Pods-BffAdmin.debug.xcconfig"; sourceTree = "<group>"; };
+		D264BDECD74A2B278E881A88 /* Pods-BffAdmin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BffAdmin.release.xcconfig"; path = "Pods/Target Support Files/Pods-BffAdmin/Pods-BffAdmin.release.xcconfig"; sourceTree = "<group>"; };
+		ED404162C5D5ABF221EFABE5 /* Pods_BffAdmin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BffAdmin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03235EF422A90432008688BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AFF1217A2CBD2644CBE4909 /* Pods_BffAdmin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03235EEE22A90432008688BD = {
+			isa = PBXGroup;
+			children = (
+				2E8BC5DB22B24419008AEC99 /* IQKeyboardManager */,
+				03235EF922A90432008688BD /* BffAdmin */,
+				03235EF822A90432008688BD /* Products */,
+				1A347691CBF9C71AFEF92521 /* Pods */,
+				98B463D97F6DA003DD8FBBA7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03235EF822A90432008688BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03235EF722A90432008688BD /* BffAdmin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03235EF922A90432008688BD /* BffAdmin */ = {
+			isa = PBXGroup;
+			children = (
+				2E46875022B7C50A00F88E18 /* Service */,
+				2E46875522B7FC1900F88E18 /* Helper */,
+				2EB629C822DDC86700446FC4 /* Model */,
+				2EB629C922DDC87400446FC4 /* View */,
+				2EB629CA22DDC87A00446FC4 /* Features */,
+				2ED957EB22E5BA230089E0EC /* Resources */,
+				03235EFA22A90432008688BD /* AppDelegate.swift */,
+				03235F0622A90434008688BD /* Info.plist */,
+				2E4A9C1522A9095800345B8B /* GoogleService-Info.plist */,
+			);
+			path = BffAdmin;
+			sourceTree = "<group>";
+		};
+		1A347691CBF9C71AFEF92521 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C2D328165EF5E1C9CA8E793F /* Pods-BffAdmin.debug.xcconfig */,
+				D264BDECD74A2B278E881A88 /* Pods-BffAdmin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2E02FCAB22FC540600815924 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				2E02FCAC22FC562500815924 /* BookedCell.xib */,
+				2E02FCB022FC5A8300815924 /* BookedTVCell.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		2E02FCB222FC5F8E00815924 /* BookedRequest */ = {
+			isa = PBXGroup;
+			children = (
+				2E02FCB322FC604000815924 /* ViewModel */,
+				2E02FCB522FC606000815924 /* Repository */,
+				2E02FCB422FC605600815924 /* Controllers */,
+			);
+			name = BookedRequest;
+			path = ../BookedRequest;
+			sourceTree = "<group>";
+		};
+		2E02FCB322FC604000815924 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2E02FCB822FC76BD00815924 /* BookedViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2E02FCB422FC605600815924 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2E02FCB622FC609C00815924 /* BookedTVC.swift */,
+				2E6D5EB42302AC08008A8B9F /* CalendarTVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2E02FCB522FC606000815924 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				2E02FCBA22FC76E200815924 /* BookedRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		2E46875022B7C50A00F88E18 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2E46875122B7C50A00F88E18 /* LoginLogoutManager.swift */,
+				2E46875222B7C50A00F88E18 /* FIRRefManager.swift */,
+				2EB629E622DDCC5100446FC4 /* ApiService.swift */,
+			);
+			name = Service;
+			path = IQKeyboardManager/Service;
+			sourceTree = "<group>";
+		};
+		2E46875522B7FC1900F88E18 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				2E46875622B7FC1900F88E18 /* Constant.swift */,
+				2E46875722B7FC1900F88E18 /* Extantion.swift */,
+				2ED957D022DF2A790089E0EC /* Reachability.swift */,
+			);
+			name = Helper;
+			path = IQKeyboardManager/Helper;
+			sourceTree = "<group>";
+		};
+		2E66428E231E2C8900601B7D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				2E664299231E2EB700601B7D /* New Group2 */,
+				2E664296231E2E8A00601B7D /* New Group1 */,
+				2E664291231E2CB500601B7D /* New Group */,
+				2E66428F231E2CAB00601B7D /* ProfileTVC.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		2E664291231E2CB500601B7D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				2E664292231E2CCC00601B7D /* ProfileTVCell.swift */,
+				2E664294231E2DB200601B7D /* MyStadiumsTVCell.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		2E664296231E2E8A00601B7D /* New Group1 */ = {
+			isa = PBXGroup;
+			children = (
+				2E664297231E2EB100601B7D /* NewProfileRepository.swift */,
+			);
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+		2E664299231E2EB700601B7D /* New Group2 */ = {
+			isa = PBXGroup;
+			children = (
+				2E66429A231E2EC700601B7D /* NewProfileViewModel.swift */,
+			);
+			path = "New Group2";
+			sourceTree = "<group>";
+		};
+		2E6D5EBA2302B1E9008A8B9F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				2E6D5EBB2302B217008A8B9F /* CalendarCell.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		2E8BC5DB22B24419008AEC99 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				2E8BC5DC22B24419008AEC99 /* IQTextView */,
+				2E8BC5DE22B24419008AEC99 /* IQToolbar */,
+				2E8BC5E522B24419008AEC99 /* Constants */,
+				2E8BC5E822B24419008AEC99 /* Resources */,
+				2E8BC5EA22B24419008AEC99 /* IQKeyboardReturnKeyHandler.swift */,
+				2E8BC5EB22B24419008AEC99 /* IQKeyboardManager.swift */,
+				2E8BC5EC22B24419008AEC99 /* IQKeyboardManagerSwift.h */,
+				2E8BC5ED22B24419008AEC99 /* Categories */,
+			);
+			name = IQKeyboardManager;
+			path = BffAdmin/IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		2E8BC5DC22B24419008AEC99 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				2E8BC5DD22B24419008AEC99 /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		2E8BC5DE22B24419008AEC99 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				2E8BC5DF22B24419008AEC99 /* IQPreviousNextView.swift */,
+				2E8BC5E022B24419008AEC99 /* IQTitleBarButtonItem.swift */,
+				2E8BC5E122B24419008AEC99 /* IQBarButtonItem.swift */,
+				2E8BC5E222B24419008AEC99 /* IQToolbar.swift */,
+				2E8BC5E322B24419008AEC99 /* IQUIView+IQKeyboardToolbar.swift */,
+				2E8BC5E422B24419008AEC99 /* IQInvocation.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		2E8BC5E522B24419008AEC99 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				2E8BC5E622B24419008AEC99 /* IQKeyboardManagerConstantsInternal.swift */,
+				2E8BC5E722B24419008AEC99 /* IQKeyboardManagerConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		2E8BC5E822B24419008AEC99 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2E8BC5E922B24419008AEC99 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2E8BC5ED22B24419008AEC99 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				2E8BC5EE22B24419008AEC99 /* IQUIScrollView+Additions.swift */,
+				2E8BC5EF22B24419008AEC99 /* IQUIViewController+Additions.swift */,
+				2E8BC5F022B24419008AEC99 /* IQUITextFieldView+Additions.swift */,
+				2E8BC5F122B24419008AEC99 /* IQUIView+Hierarchy.swift */,
+				2E8BC5F222B24419008AEC99 /* IQNSArray+Sort.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		2EB629C822DDC86700446FC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E9EE0B222CC5A4500136D2D /* StadiumModel.swift */,
+				2E49D8FC22BA9A2200FB8D5E /* ProfileInfo.swift */,
+				2ED957DD22E06A470089E0EC /* StadiumInfo.swift */,
+				2E02FCBC22FC7EFE00815924 /* BookedModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2EB629C922DDC87400446FC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2EB629D122DDC96300446FC4 /* Cells */,
+				2E5FF37E22C39D1800F37453 /* Main.storyboard */,
+				2E8BC5D922B23D20008AEC99 /* TabBarCont.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2EB629CA22DDC87A00446FC4 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				2E66428E231E2C8900601B7D /* New Group */,
+				2E02FCB222FC5F8E00815924 /* BookedRequest */,
+				2EB629DA22DDCAF400446FC4 /* Profile */,
+				2EB629D222DDCA1800446FC4 /* Stadiums */,
+				2EB629CC22DDC8BC00446FC4 /* Auth */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		2EB629CC22DDC8BC00446FC4 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				2EB629CD22DDC8C300446FC4 /* ViewModel */,
+				2EB629CF22DDC8E100446FC4 /* Controllers */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		2EB629CD22DDC8C300446FC4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2ED957E822E0B06B0089E0EC /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2EB629CF22DDC8E100446FC4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2EC973A622B0CF3600F2BE74 /* AuthMethodViewController.swift */,
+				2E4A9C1722A97E7700345B8B /* AuthViewController.swift */,
+				2EC973A822B0D3A300F2BE74 /* PhoneVerifyVC.swift */,
+				2EC973AA22B103BC00F2BE74 /* EnterCodeVC.swift */,
+				2E8BC60522B25933008AEC99 /* FillingVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2EB629D122DDC96300446FC4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2E6D5EBA2302B1E9008A8B9F /* New Group */,
+				2E02FCAB22FC540600815924 /* Request */,
+				2ED957D422DF76B30089E0EC /* AddStadium */,
+				2ED957D322DF74580089E0EC /* StadiumInfo */,
+				2ED957D222DF741A0089E0EC /* Stadiums */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2EB629D222DDCA1800446FC4 /* Stadiums */ = {
+			isa = PBXGroup;
+			children = (
+				2ED957DF22E071650089E0EC /* Stadiums */,
+				2EB629D722DDCA8200446FC4 /* AddStadium */,
+				2ED957D522E067C70089E0EC /* StadiumInfo */,
+				2ED957E222E08DD90089E0EC /* StadiumEdit */,
+			);
+			path = Stadiums;
+			sourceTree = "<group>";
+		};
+		2EB629D322DDCA2600446FC4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2E9EE0B022CC583400136D2D /* StadiumsCVC.swift */,
+				2EB629E822DDD42700446FC4 /* StadiumCVC + Extensions.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2EB629D422DDCA2F00446FC4 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				2EB629E422DDCBF300446FC4 /* StadiumRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		2EB629D522DDCA3800446FC4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2EB629E122DDCBCC00446FC4 /* StadiumViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2EB629D722DDCA8200446FC4 /* AddStadium */ = {
+			isa = PBXGroup;
+			children = (
+				2EB629D922DDCAD500446FC4 /* ViewModel */,
+				2EB629D822DDCAC400446FC4 /* Controllers */,
+			);
+			path = AddStadium;
+			sourceTree = "<group>";
+		};
+		2EB629D822DDCAC400446FC4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2E8516D322DC464B00373358 /* AddStadiumTVC.swift */,
+				2EB629ED22DDDB5500446FC4 /* AddStadiumTVC + Extensions.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2EB629D922DDCAD500446FC4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2EB629EA22DDD8F200446FC4 /* AddStadiumViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2EB629DA22DDCAF400446FC4 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				2EB629DE22DDCB2900446FC4 /* ViewModel */,
+				2EB629DD22DDCB1B00446FC4 /* Repository */,
+				2EB629DC22DDCB1100446FC4 /* Controllers */,
+				2EB629DB22DDCB0000446FC4 /* EditProfile */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		2EB629DB22DDCB0000446FC4 /* EditProfile */ = {
+			isa = PBXGroup;
+			children = (
+				2EB629E022DDCB3A00446FC4 /* ViewModel */,
+				2EB629DF22DDCB3000446FC4 /* Controllers */,
+			);
+			path = EditProfile;
+			sourceTree = "<group>";
+		};
+		2EB629DC22DDCB1100446FC4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				03235EFC22A90432008688BD /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2EB629DD22DDCB1B00446FC4 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				2ED957CB22DEEFB50089E0EC /* ProfileRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		2EB629DE22DDCB2900446FC4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2ED957C922DEEF730089E0EC /* ProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2EB629DF22DDCB3000446FC4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2E49D8FE22BA9D2400FB8D5E /* ProfileEditVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2EB629E022DDCB3A00446FC4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2ED957CE22DF20860089E0EC /* ProfileEditViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2EB629EC22DDDA4800446FC4 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				2E9EE0BC22CC79D300136D2D /* StadAddressOnMappVC.swift */,
+			);
+			name = Map;
+			path = ../../Stadiums/Controllers/Map;
+			sourceTree = "<group>";
+		};
+		2ED957D222DF741A0089E0EC /* Stadiums */ = {
+			isa = PBXGroup;
+			children = (
+				2E9EE0B622CC61C200136D2D /* StadiumCVCell.xib */,
+				2E9EE0B822CC66B100136D2D /* StadiumCVCell.swift */,
+			);
+			path = Stadiums;
+			sourceTree = "<group>";
+		};
+		2ED957D322DF74580089E0EC /* StadiumInfo */ = {
+			isa = PBXGroup;
+			children = (
+				2E9EE0BE22CC7B5300136D2D /* ImageSliderCell.swift */,
+				2E7C262F22CF51F800E26482 /* AddImagesCVCell.xib */,
+				2E7C262D22CF4D3B00E26482 /* AddImagesCVCell.swift */,
+				2E7C262722CF2C5C00E26482 /* StadiumEditCVCell.swift */,
+			);
+			path = StadiumInfo;
+			sourceTree = "<group>";
+		};
+		2ED957D422DF76B30089E0EC /* AddStadium */ = {
+			isa = PBXGroup;
+			children = (
+				2E8516D522DC4AB300373358 /* AddStadiumCVCell.swift */,
+			);
+			path = AddStadium;
+			sourceTree = "<group>";
+		};
+		2ED957D522E067C70089E0EC /* StadiumInfo */ = {
+			isa = PBXGroup;
+			children = (
+				2ED957D622E068A90089E0EC /* ViewModel */,
+				2ED957D722E068B50089E0EC /* Repository */,
+				2ED957D822E068C40089E0EC /* Controllers */,
+			);
+			path = StadiumInfo;
+			sourceTree = "<group>";
+		};
+		2ED957D622E068A90089E0EC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2ED957D922E069590089E0EC /* StadiumInfoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2ED957D722E068B50089E0EC /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				2ED957DB22E0699E0089E0EC /* StadiumInfoRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		2ED957D822E068C40089E0EC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2EB629EC22DDDA4800446FC4 /* Map */,
+				2E9EE0BA22CC694600136D2D /* MyStadiumInfoTVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2ED957DF22E071650089E0EC /* Stadiums */ = {
+			isa = PBXGroup;
+			children = (
+				2EB629D522DDCA3800446FC4 /* ViewModel */,
+				2EB629D422DDCA2F00446FC4 /* Repository */,
+				2EB629D322DDCA2600446FC4 /* Controllers */,
+			);
+			path = Stadiums;
+			sourceTree = "<group>";
+		};
+		2ED957E222E08DD90089E0EC /* StadiumEdit */ = {
+			isa = PBXGroup;
+			children = (
+				2ED957E422E08EB30089E0EC /* ViewModel */,
+				2ED957E522E08EC20089E0EC /* Controllers */,
+			);
+			path = StadiumEdit;
+			sourceTree = "<group>";
+		};
+		2ED957E322E08E2F0089E0EC /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				2E2A1C9222D4766F006C5864 /* StadAddressEditOnMapVC.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		2ED957E422E08EB30089E0EC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2ED957E622E08F4C0089E0EC /* StadiumEditViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2ED957E522E08EC20089E0EC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2ED957E322E08E2F0089E0EC /* Map */,
+				2ED957E022E074CE0089E0EC /* StadiumEditTVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2ED957EB22E5BA230089E0EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2E5401DD22C25693009B3FF4 /* Assets.xcassets */,
+				2E6D5EB82302AE24008A8B9F /* RZDozAkNBlEAAvi1m5_fP-lxgKx_Mq0UarKNYgn4-OesEZYsEaLYP5Pqm4hNuDgYCZmE=h900.png */,
+				03235F0322A90434008688BD /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		98B463D97F6DA003DD8FBBA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED404162C5D5ABF221EFABE5 /* Pods_BffAdmin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03235EF622A90432008688BD /* BffAdmin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03235F0922A90434008688BD /* Build configuration list for PBXNativeTarget "BffAdmin" */;
+			buildPhases = (
+				8AFF332F7F37A0054982874E /* [CP] Check Pods Manifest.lock */,
+				03235EF322A90432008688BD /* Sources */,
+				03235EF422A90432008688BD /* Frameworks */,
+				03235EF522A90432008688BD /* Resources */,
+				6F9ACCF3AA296B3891F9A0B1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BffAdmin;
+			productName = BffAdmin;
+			productReference = 03235EF722A90432008688BD /* BffAdmin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03235EEF22A90432008688BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Azamat Kushmanov";
+				TargetAttributes = {
+					03235EF622A90432008688BD = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 03235EF222A90432008688BD /* Build configuration list for PBXProject "BffAdmin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03235EEE22A90432008688BD;
+			productRefGroup = 03235EF822A90432008688BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03235EF622A90432008688BD /* BffAdmin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03235EF522A90432008688BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5FF37F22C39D1800F37453 /* Main.storyboard in Resources */,
+				2E8BC5FC22B24419008AEC99 /* IQKeyboardManager.bundle in Resources */,
+				2E9EE0B722CC61C200136D2D /* StadiumCVCell.xib in Resources */,
+				2E6D5EB92302AE25008A8B9F /* RZDozAkNBlEAAvi1m5_fP-lxgKx_Mq0UarKNYgn4-OesEZYsEaLYP5Pqm4hNuDgYCZmE=h900.png in Resources */,
+				2E02FCAD22FC562600815924 /* BookedCell.xib in Resources */,
+				2E5401DE22C25694009B3FF4 /* Assets.xcassets in Resources */,
+				2E7C263022CF51F900E26482 /* AddImagesCVCell.xib in Resources */,
+				03235F0522A90434008688BD /* LaunchScreen.storyboard in Resources */,
+				2E4A9C1622A9095900345B8B /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6F9ACCF3AA296B3891F9A0B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BffAdmin/Pods-BffAdmin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BSGridCollectionViewLayout/BSGridCollectionViewLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/BSImagePicker/BSImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/BSImageView/BSImageView.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/MMProgressHUD/MMProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftLocation/SwiftLocation.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BSGridCollectionViewLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BSImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BSImageView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PKHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftLocation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BffAdmin/Pods-BffAdmin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AFF332F7F37A0054982874E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BffAdmin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03235EF322A90432008688BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EB629EB22DDD8F200446FC4 /* AddStadiumViewModel.swift in Sources */,
+				2E8BC60222B24419008AEC99 /* IQUIView+Hierarchy.swift in Sources */,
+				2E6D5EB52302AC08008A8B9F /* CalendarTVC.swift in Sources */,
+				2E9EE0BB22CC694600136D2D /* MyStadiumInfoTVC.swift in Sources */,
+				2EC973AB22B103BC00F2BE74 /* EnterCodeVC.swift in Sources */,
+				2E8BC60322B24419008AEC99 /* IQNSArray+Sort.swift in Sources */,
+				2ED957CF22DF20860089E0EC /* ProfileEditViewModel.swift in Sources */,
+				2E6D5EBC2302B217008A8B9F /* CalendarCell.swift in Sources */,
+				2E8BC5DA22B23D20008AEC99 /* TabBarCont.swift in Sources */,
+				2E8BC60022B24419008AEC99 /* IQUIViewController+Additions.swift in Sources */,
+				2E8BC5F622B24419008AEC99 /* IQBarButtonItem.swift in Sources */,
+				2E9EE0B922CC66B100136D2D /* StadiumCVCell.swift in Sources */,
+				2EB629E922DDD42700446FC4 /* StadiumCVC + Extensions.swift in Sources */,
+				2E9EE0B322CC5A4500136D2D /* StadiumModel.swift in Sources */,
+				03235EFD22A90432008688BD /* ViewController.swift in Sources */,
+				2E46875322B7C50A00F88E18 /* LoginLogoutManager.swift in Sources */,
+				2E7C262822CF2C5C00E26482 /* StadiumEditCVCell.swift in Sources */,
+				2ED957E722E08F4C0089E0EC /* StadiumEditViewModel.swift in Sources */,
+				2ED957DA22E069590089E0EC /* StadiumInfoViewModel.swift in Sources */,
+				2E664295231E2DB200601B7D /* MyStadiumsTVCell.swift in Sources */,
+				2ED957E922E0B06C0089E0EC /* LoginViewModel.swift in Sources */,
+				2E664290231E2CAB00601B7D /* ProfileTVC.swift in Sources */,
+				2E9EE0BF22CC7B5300136D2D /* ImageSliderCell.swift in Sources */,
+				2ED957E122E074CE0089E0EC /* StadiumEditTVC.swift in Sources */,
+				2E2A1C9322D4766F006C5864 /* StadAddressEditOnMapVC.swift in Sources */,
+				2E8BC60122B24419008AEC99 /* IQUITextFieldView+Additions.swift in Sources */,
+				2E4A9C1822A97E7700345B8B /* AuthViewController.swift in Sources */,
+				2E8BC5FA22B24419008AEC99 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				2E02FCB922FC76BD00815924 /* BookedViewModel.swift in Sources */,
+				2EB629E722DDCC5100446FC4 /* ApiService.swift in Sources */,
+				2E46875422B7C50A00F88E18 /* FIRRefManager.swift in Sources */,
+				2E8BC5FE22B24419008AEC99 /* IQKeyboardManager.swift in Sources */,
+				2EB629E222DDCBCC00446FC4 /* StadiumViewModel.swift in Sources */,
+				2ED957CC22DEEFB50089E0EC /* ProfileRepository.swift in Sources */,
+				2E8BC5FD22B24419008AEC99 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				2E8BC60622B25933008AEC99 /* FillingVC.swift in Sources */,
+				2E8BC5F822B24419008AEC99 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				2EC973A922B0D3A300F2BE74 /* PhoneVerifyVC.swift in Sources */,
+				2E9EE0B122CC583400136D2D /* StadiumsCVC.swift in Sources */,
+				2E8BC5F422B24419008AEC99 /* IQPreviousNextView.swift in Sources */,
+				2E02FCB722FC609C00815924 /* BookedTVC.swift in Sources */,
+				2E8BC5F322B24419008AEC99 /* IQTextView.swift in Sources */,
+				2E8BC5F922B24419008AEC99 /* IQInvocation.swift in Sources */,
+				2E49D8FF22BA9D2400FB8D5E /* ProfileEditVC.swift in Sources */,
+				2E9EE0BD22CC79D300136D2D /* StadAddressOnMappVC.swift in Sources */,
+				2EB629E522DDCBF300446FC4 /* StadiumRepository.swift in Sources */,
+				2E46875822B7FC1900F88E18 /* Constant.swift in Sources */,
+				03235EFB22A90432008688BD /* AppDelegate.swift in Sources */,
+				2E66429B231E2EC700601B7D /* NewProfileViewModel.swift in Sources */,
+				2ED957DC22E0699E0089E0EC /* StadiumInfoRepository.swift in Sources */,
+				2ED957D122DF2A790089E0EC /* Reachability.swift in Sources */,
+				2ED957DE22E06A470089E0EC /* StadiumInfo.swift in Sources */,
+				2E02FCBD22FC7EFE00815924 /* BookedModel.swift in Sources */,
+				2E7C262E22CF4D3B00E26482 /* AddImagesCVCell.swift in Sources */,
+				2E02FCBB22FC76E200815924 /* BookedRepository.swift in Sources */,
+				2E49D8FD22BA9A2200FB8D5E /* ProfileInfo.swift in Sources */,
+				2E02FCB122FC5A8300815924 /* BookedTVCell.swift in Sources */,
+				2E8BC5FB22B24419008AEC99 /* IQKeyboardManagerConstants.swift in Sources */,
+				2EB629EE22DDDB5500446FC4 /* AddStadiumTVC + Extensions.swift in Sources */,
+				2E8516D622DC4AB300373358 /* AddStadiumCVCell.swift in Sources */,
+				2ED957CA22DEEF730089E0EC /* ProfileViewModel.swift in Sources */,
+				2EC973A722B0CF3600F2BE74 /* AuthMethodViewController.swift in Sources */,
+				2E46875922B7FC1900F88E18 /* Extantion.swift in Sources */,
+				2E8BC5FF22B24419008AEC99 /* IQUIScrollView+Additions.swift in Sources */,
+				2E8BC5F522B24419008AEC99 /* IQTitleBarButtonItem.swift in Sources */,
+				2E664298231E2EB100601B7D /* NewProfileRepository.swift in Sources */,
+				2E8BC5F722B24419008AEC99 /* IQToolbar.swift in Sources */,
+				2E8516D422DC464B00373358 /* AddStadiumTVC.swift in Sources */,
+				2E664293231E2CCC00601B7D /* ProfileTVCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03235F0322A90434008688BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03235F0422A90434008688BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03235F0722A90434008688BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03235F0822A90434008688BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03235F0A22A90434008688BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2D328165EF5E1C9CA8E793F /* Pods-BffAdmin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5T8Z6XWL5;
+				INFOPLIST_FILE = BffAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.generix.BffAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03235F0B22A90434008688BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D264BDECD74A2B278E881A88 /* Pods-BffAdmin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P5T8Z6XWL5;
+				INFOPLIST_FILE = BffAdmin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.generix.BffAdmin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03235EF222A90432008688BD /* Build configuration list for PBXProject "BffAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03235F0722A90434008688BD /* Debug */,
+				03235F0822A90434008688BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03235F0922A90434008688BD /* Build configuration list for PBXNativeTarget "BffAdmin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03235F0A22A90434008688BD /* Debug */,
+				03235F0B22A90434008688BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03235EEF22A90432008688BD /* Project object */;
+}
